@@ -2,8 +2,6 @@
 
 ## Indice
 
----
-
 1. [Conceituação Geral](#conceituação-geral)
 
 2. [Extensão dos Arquivos](#extensão-dos-arquivos)
@@ -11,8 +9,6 @@
 3. [O Básico do Sistema de Coordenadas](#o-básico-do-sistema-de-coordenadas)
 
 ## Conceituação Geral
-
----
 
 A imagens SVG (Scalable Vector Graphics) são os gráficos geradas pelo uso do conceito de vetorização, que consiste em  usar um conjunto de funções geômetricos para descrever uma entidade gráfica. Essas funções são indicadas através de códigos específicos, com sintaxe de alto nível, que são os responsáveis por indicar ao navegador/leitor de imagens como e onde os gráficos devem ser desenhados na tela.
 
@@ -22,15 +18,11 @@ Elas são especialmente interessantes pois é possível trabalhar a partir de qu
 
 ## Extensão dos Arquivos
 
----
-
 Imagens SVG possuem como extensão de arquivo nativa o '.svg' (tudo minúsculo). Ela é suportada pela maioria dos browsers modernos e programas de edição de imagens que trabalham com vetorização.
 
 O código que descreve imagens SVG pode se tornar complexo rapidamente e isso traz consigo o aumento do tamanho do arquivo. Então, também  existe a extensão '.svgz' (tudo minúsculo), ela foi criada pela Adobe para definir imagens SVG comprimidas. Apesar dessa extensão não ser tão comum, devido a inconsistencias de renderização, ela pode ser encontrada em determinados contextos.
 
 ## O Básico do Sistema de Coordenadas
-
----
 
 As imagens SVG trabalham com a definição de uma 'tela de pintura', que limitará a área onde os elementos serão desenhados. Essa tela sempre será definida a partir do elemento raiz `<svg></svg>` [(sobre)](#o-elemento-raiz-svg), portanto, ele será o responsável por conter os gráficos e por definir a orientação do sistema de coordenadas para seus elementos filhos.
 
@@ -74,8 +66,6 @@ As imagens SVG não são para uso exclusivo na web, mas é nela que mais brilham
 
 ## Os Principais Elementos SVG
 
----
-
 - O Elemento Raiz (svg)
 - O Elemento de Agrupamento (g)
 - O Elemento de Texto (text)
@@ -89,11 +79,9 @@ As imagens SVG não são para uso exclusivo na web, mas é nela que mais brilham
 
 ### Utilizando CSS com SVG
 
----
 
 ### Trabalhando com Inkscape
 
----
 
 ### Referências
 
