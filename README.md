@@ -60,6 +60,7 @@ As imagens SVG não são para uso exclusivo na web, mas é nela que mais brilham
 
    Nos navegadores modernos é possível inserir o código SVG diretamente estrutura da página, pois eles são capazes de distinguir o código e desenhar a imagem da forma correta. Fazendo isso o código respeitará a hierarquia do DOM e pode ser manipulado através de CSS e scripting.
 
+   **O código:**
    ```
     <body>
         <svg
@@ -79,6 +80,9 @@ As imagens SVG não são para uso exclusivo na web, mas é nela que mais brilham
     </body>
    ```
 
+   **A Visualização:**
+
+   ![Renderização de SVG aninhado em HTML](./Exemplos/svg-aninhado-html.png)
    Em
 
 ## Os Principais Elementos SVG
